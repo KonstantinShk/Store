@@ -1,0 +1,24 @@
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+1,64,47,53,87,41,24,93,2,18,76,30,55,4,8,96,59,21,59,67,23,93,2,69,79,32,51,18,32,48,70,51,44,5,57,66,4,98,30,58,34,75,70,99,91,1,8,85,66,69,37,3,80,65,87,75,65,40,45,73,85,2,69,99,35,35,25,70,63,5,41,38,6,16,55,82,43,46,17,93,52,57,30,72,14,7,84 / 81,9,27,47,21,58,44,55,98,88,99,5,42,45,98,54,62,39,47,70,27,91,84,86,86,71,86,86,62,43,14,88,15,35,90,55,99,1,88,62,62,48,97,59,86,93,88,40,0,34,26,51,97,8,48,64,51,22,34,92,13,76,95,34,72,96,52,88,21,24,69,64,62,31,40,85,88,26,92,27,48,78,97,7,46,34,45,64,3,4,71,25,61,32,66
+const variableName = getRandomNumber();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+18,56,81,55,88,76,59,71,41,49,74,99,66,77,33,81,15,54,11,19,91,20,71,97,8,63,90,66,46,46,1,79,37,19,62,56,18,6,8,64,43,76,95,49,35,91,62,4,7,16,99,7,25,79,71,58,33,58,74,99,84,97,47,19,92,97,40,59,41,93,35,29,13,35,93,28,88 - 18,44,48,40,98,23,3,73,27,36,43,55,7,62,29,5,68,84,16,56,43,12,31,5,91,86,1,53,32,17,70,2,69,71,84,80,55,25,29,70,11,42,28,25,50,17,18,15,28
+class MyClass { constructor() { this.property = getRandomString(); } }
+apple
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+19,71,13,31,2,62,75,85,32,85,9,65,13,44,97,32,76,41,74,13,66,57,42,88,36,62,91,33,53,56,73,52,54,24,93 * 95,56,48,21,52,37,78,80,4,5,42,93,37,71,92,3,48,88,26,6,22
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+class MyClass { constructor() { this.property = getRandomString(); } }
+const variableName = getRandomNumber();
+true + true
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const reverseWords = str => str.split(" ").reverse().join(" ");
+69,53,24,8,50,0,2,22,4,79,99,52,42,36,18 * 95
+const reverseString = str => str.split("").reverse().join("");
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+

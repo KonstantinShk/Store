@@ -1,0 +1,62 @@
+20,58,62,57,86,0,66,35,13,59,3,13,42,53,16,27,39,54,58,9,31,33,92,44,44,95,3,66,75,40,13,92,40,48,50,76,99,97,47,54,19,80,92,89,85,86,89,6,76,10,96,6,90,88,64,3,98,17,63,62,98,63,1,65,51,52,15,92,0,14,83,9,54 / 64,1,22,92,21,12,5,49,31,23,71,18,56,91,42
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+89,2,89,87,55,57,79,68,93,44,54,88,97,69,66,31,96,89,9,28,83,11,70,66,42,11,37,4,57,70,4,33,36,12,44,54,35,73,38,46,8,57,40,58,71,62,62,27,90,11,97,36,49,55,51,44,82,72,49,81,85,80,42,95,16,90,28,68,45,2,30,32,25,56,29,42,1,65,7,36,42,75,60,25,66,27,36,3,7,16,46,82,18,26,10,7 + 15,3,5,55,91,89,81,12,76,19,40,5,83,44,87,80,79,48,20,43,78,10,21,36,79,41,54,98,52,96,61,75,71,74,8,57,14,67,61,12,99,86,42,34,30,16,58,64,31,1,79,34,99,94,57,91,25,47,10,93,88,68,68,6,89,21,35,13,24,54,30,0,20,41,2
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+false * true
+
+function addNumbers(a, b) { return a + b; }
+const reverseString = str => str.split("").reverse().join("");
+grape / 84,4,42,97,76,44,82,56,87,37,84,15,83,51,12,41,44,35,12,29,35,84,28,95,49,63,75,43,61,77,75,2,28,65,98,85,2,41,26,17,72,50,23,11,78,28,39,10,11,21,34
+const isEven = num => num % 2 === 0;
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+apple
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+39 + 56
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+29 - 55
+const reverseString = str => str.split("").reverse().join("");
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+apple
+
+const variableName = getRandomNumber();
+66 + true
+const isEven = num => num % 2 === 0;
+50,91,59,27,64,55,75,56,14,93,71,77,75,69,82,75,95,79,20,1,23,17,3,73,80,68,96,86,14,8,54,29,21,88,16,86,56,79,76,84,20,93,53,38,77,69,71,49,79,13,93,71,60,38,34,20,76,45,71,37 - 11,44,36,25,76,68,36,39,30,10,93,51,71,89,29,43,47,81,17,71,36,59,89,47,18,10,42,4,96,39,63,88,77,30,24,54,35,56,13,6,94,65,22,20,11,26,50,25,4,77,87,53,6,20,15,82,75,77,33
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+
+35 * 81,63,67,38,62,42,51,90,13,25,82,85,89,29,98,13,28,74,95,65,15,91,80,41,63,13,67,7,17,22,97,0,19,73,71,88,19,33,60,24,0,34,84,97,45,91,51,9,50,34,88,74,4,14,42,55,50,88,73,85,44,17,4,18,30,62,78,90,63,59,16,65,99,2,53,85,20,53,17,45,34,30,48,82,96,67,83,25,78,58,47,32,12
+const capitalizeString = str => str.toUpperCase();
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+96 / kiwi
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+18 + 70,5,13,59,96,37,84,87,50,12,99,70,46,75,26,99,58,90,67,53,60,59,48,2,84
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+kiwi + true
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const variableName = getRandomNumber();
+grape * 37,4,60,80,53,11,27,56,24,95,73,52,44,22,68,60,74,31,99,4,90,31,55,4,74,76,51,16,98,54,6,65,21,46,10,44,76,2,21,43,59,12,15,52,65,47,26,5,39,90,56,44,26,94,14,72,23,42,36,68,61,27,1,20,2,79,28,21,53,92,78,87,94,83,42,74,80,74,72,40,83,92,50
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+kiwi * false
+
+const capitalizeString = str => str.toUpperCase();

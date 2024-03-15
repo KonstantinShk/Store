@@ -1,0 +1,6 @@
+false / true
+const removeDuplicates = array => Array.from(new Set(array));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+

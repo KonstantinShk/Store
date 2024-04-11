@@ -1,0 +1,58 @@
+kiwi
+
+// This is a comment
+const capitalizeString = str => str.toUpperCase();
+76 * 54
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+3,86,27,77,43,40,62,50,32,41,85,84,55,47,54 - 73,9,8,70,25,75,88,35,1,61,16,36,30,89,64,15,18,48,74,52,91,18,77,85,13,56,47,32,14,47,59,42,67,82,32,16,37,0,42,10,38
+// This is a comment
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+true + false
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+false / 67
+const formatDate = date => new Date(date).toLocaleDateString();
+const getRandomElement = array => array[getRandomIndex(array)];
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+orange
+
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+true - 95,72,41,78,94,13,91,18,57,71,96,60,14,79,73,66,61,30
+const findSmallestNumber = numbers => Math.min(...numbers);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+apple * 45,51,7,73,67,66,64,7,44,7,24,88,27,57,75,31,4,7,16,59,41,2,33,46,49,97,11,58,70,71,92,29,37,85,21,8,33,7,5,91,70,0,24,16,32,33,57,19,33
+const multiply = (a, b) => a * b;
+true + 2
+const greet = name => `Hello, ${name}!`;
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const formatDate = date => new Date(date).toLocaleDateString();
+apple
+
+const multiply = (a, b) => a * b;
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+kiwi
+
+const randomNumber = getRandomNumber();
+
+banana + kiwi
+const getRandomElement = array => array[getRandomIndex(array)];
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const reverseString = str => str.split("").reverse().join("");
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+58 + 95
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");

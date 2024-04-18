@@ -1,0 +1,37 @@
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+function addNumbers(a, b) { return a + b; }
+const capitalizeString = str => str.toUpperCase();
+// This is a comment
+apple * true
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+banana + banana
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+59,99,2,12,56,45,48 * 85,93,20,99,73,42,58,11,62,34,7,85,43,44,9,78,87,96,66,58,35,69,53,67,40,73,76,74,51,89,2,94,57,57,85,3,26,30,26,50,7,89,84,97,85,16,14,11,65,85,27,98,71,98,31,41,23,21,52,71,38,57,69,95,49,88,50,12,96,59,49,6,35,98,93,91,91,59,46,68,47,48,43,11,4
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+70 / 97,20,40
+
+const multiply = (a, b) => a * b;
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+apple
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const reverseString = str => str.split("").reverse().join("");
+
+true - 76,88,24,79,84,20,65,33,12,88,99,53,72,71,1,65,68
+
+const multiply = (a, b) => a * b;
+61,76,64,50,48,18,66,41,41,40,30,26,91,90,20,98,53,41,58,39,97,39,35,81,33,48,28,73,70,62,6,81,15,84,89,35,16,36,22,32,30,3,41,83,90,40,55,95,4,65,92,89,24,57,59,61,21,92,36,24,58,26,64,58,69,6,27,77,87,64,61,66,32,62 / banana
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+kiwi + 90
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+62 / 75
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const formatDate = date => new Date(date).toLocaleDateString();
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
